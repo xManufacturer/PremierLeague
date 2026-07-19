@@ -328,3 +328,35 @@ body {
 #botonInicio img:hover {
     transform: scale(1.05);
 }
+
+#palmares {
+    width: 700px;
+    margin: 40px auto;
+    background-color: #400c55;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#palmares h2 {
+    margin-bottom: 20px;
+}
+
+#palmares h3 {
+    margin-top: 30px;
+}
+
+#palmares p {
+    display: flex;
+    align-items: flex-start;
+    margin: 8px 0;
+}
+#palmares strong {
+    width: 170px;
+    flex-shrink: 0;
+}
+
+#palmares span {
+    flex: 1;
+}

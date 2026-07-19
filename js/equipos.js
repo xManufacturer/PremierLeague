@@ -5,6 +5,20 @@ const equipos = [
         "escudo": "img/arsenal.png",
         "entrenador": "Mikel Arteta",
         "formacion": "4-3-3",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1931, 1933, 1934, 1935, 1938, 1948, 1953, 1971, 1989, 1991, 1998, 2002, 2004, 2026],
+                "FA Cup": [1930, 1936, 1950, 1971, 1979, 1993, 1998, 2002, 2003, 2005, 2014, 2015, 2017, 2020],
+                "League Cup": [1987, 1993],
+                "Community Shield": [1931, 1932, 1934, 1935, 1939, 1949, 1954, 1992, 1999, 2000, 2003, 2005, 2015, 2016, 2018, 2021, 2024]
+            },
+            "internacionales": {
+                "Recopa Europa": [1994]
+            },
+            "menores": {
+
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Raya",
@@ -15,6 +29,11 @@ const equipos = [
                 "nombre": "Kepa",
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/arsenal/kepa.png"
+            },
+            {
+                "nombre": "Meslier",
+                "posiciones": ["POR"],
+                "foto": "img/jugadores/arsenal/meslier.png"
             },
             {
                 "nombre": "Saliba",
@@ -102,11 +121,6 @@ const equipos = [
                 "foto": "img/jugadores/arsenal/martinelli.png"
             },
             {
-                "nombre": "Trossard",
-                "posiciones": ["EI"],
-                "foto": "img/jugadores/arsenal/trossard.png"
-            },
-            {
                 "nombre": "Reiss Nelson",
                 "posiciones": ["EI"],
                 "foto": "img/jugadores/arsenal/reiss-nelson.png"
@@ -149,6 +163,22 @@ const equipos = [
         "escudo": "img/aston-villa.png",
         "entrenador": "Unai Emery",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1894, 1896, 1897, 1899, 1900, 1910, 1981],
+                "FA Cup": [1887, 1895, 1897, 1905, 1913, 1920, 1957],
+                "League Cup": [1961, 1975, 1977, 1994, 1996],
+                "Community Shield": [1982]
+            },
+            "internacionales": {
+                "Champions League": [1982],
+                "Europa League": [2026],
+                "Supercopa Europa": [1983]
+            },
+            "menores": {
+                "Championship": [1938, 1960]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Martínez",
@@ -160,11 +190,11 @@ const equipos = [
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/aston-villa/bizot.png"
             },
-            {
+            /*{
                 "nombre": "Zych",
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/aston-villa/zych.png"
-            },
+            },*/
             {
                 "nombre": "Gauci",
                 "posiciones": ["POR"],
@@ -210,11 +240,11 @@ const equipos = [
                 "posiciones": ["LD"],
                 "foto": "img/jugadores/aston-villa/cash.png"
             },
-            {
+            /*{
                 "nombre": "Andrés García",
                 "posiciones": ["LD"],
                 "foto": "img/jugadores/aston-villa/andres-garcia.png"
-            },
+            },*/
             {
                 "nombre": "Nedeljkovic",
                 "posiciones": ["LD"],
@@ -236,11 +266,6 @@ const equipos = [
                 "foto": "img/jugadores/aston-villa/bogarde.png"
             },
             {
-                "nombre": "Tielemans",
-                "posiciones": ["MC", "MCO"],
-                "foto": "img/jugadores/aston-villa/tielemans.png"
-            },
-            {
                 "nombre": "McGinn",
                 "posiciones": ["ED", "MCO", "MC"],
                 "foto": "img/jugadores/aston-villa/mcginn.png"
@@ -251,9 +276,9 @@ const equipos = [
                 "foto": "img/jugadores/aston-villa/barkley.png"
             },
             {
-                "nombre": "Rogers",
-                "posiciones": ["MCO", "EI"],
-                "foto": "img/jugadores/aston-villa/rogers.png"
+                "nombre": "Manzambi",
+                "posiciones": ["MC", "MCO"],
+                "foto": "img/jugadores/aston-villa/manzambi.png"
             },
             {
                 "nombre": "Buendía",
@@ -264,11 +289,6 @@ const equipos = [
                 "nombre": "Iling-Junior",
                 "posiciones": ["EI"],
                 "foto": "img/jugadores/aston-villa/iling-junior.png"
-            },
-            {
-                "nombre": "Dobbin",
-                "posiciones": ["EI", "DC"],
-                "foto": "img/jugadores/aston-villa/dobbin.png"
             },
             {
                 "nombre": "Bailey",
@@ -303,17 +323,29 @@ const equipos = [
         "escudo": "img/bournemouth.png",
         "entrenador": "Marco Rose",
         "formacion": "3-4-2-1",
+        "titulos": {
+            "nacionales": {
+              
+            },
+            "internacionales": {
+
+            },
+            "menores": {
+                "Championship": [2015],
+                "League One": [1987]    
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Petrovic",
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/bournemouth/petrovic.png"
             },
-            {
+            /*{
                 "nombre": "Paulsen",
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/bournemouth/paulsen.png"
-            },
+            },*/
             {
                 "nombre": "Forster",
                 "posiciones": ["POR"],
@@ -354,11 +386,11 @@ const equipos = [
                 "posiciones": ["LI"],
                 "foto": "img/jugadores/bournemouth/soler.png"
             },
-            {
+            /*{
                 "nombre": "Jiménez",
                 "posiciones": ["LD"],
                 "foto": "img/jugadores/bournemouth/jimenez.png"
-            },
+            },*/
             {
                 "nombre": "Smith",
                 "posiciones": ["LD"],
@@ -373,6 +405,11 @@ const equipos = [
                 "nombre": "Aarons",
                 "posiciones": ["LD"],
                 "foto": "img/jugadores/bournemouth/aarons.png"
+            },
+            {
+                "nombre": "Araujo",
+                "posiciones": ["LD"],
+                "foto": "img/jugadores/bournemouth/araujo.png"
             },
             {
                 "nombre": "Adams",
@@ -458,6 +495,11 @@ const equipos = [
                 "nombre": "Jebbison",
                 "posiciones": ["DC"],
                 "foto": "img/jugadores/bournemouth/jebbison.png"
+            },
+            {
+                "nombre": "Rodríguez",
+                "posiciones": ["DC"],
+                "foto": "img/jugadores/bournemouth/alvaro-rodriguez.png"
             }
         ]
     }, 
@@ -467,6 +509,19 @@ const equipos = [
         "escudo": "img/brentford.png",
         "entrenador": "Keith Andrews",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                
+            },
+            "internacionales": {
+
+            },
+            "menores": {
+                "Championship": [1935],
+                "League One": [1992],
+                "League Two": [1963, 1999, 2009]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Kelleher",
@@ -527,6 +582,11 @@ const equipos = [
                 "nombre": "Arthur",
                 "posiciones": ["DFC"],
                 "foto": "img/jugadores/brentford/arthur.png"
+            },
+            {
+                "nombre": "Fredick",
+                "posiciones": ["DFC"],
+                "foto": "img/jugadores/brentford/fredick.png"
             },
             {
                 "nombre": "Rico Henry",
@@ -609,15 +669,20 @@ const equipos = [
                 "foto": "img/jugadores/brentford/nunes.png"
             },
             {
+                "nombre": "Anthony",
+                "posiciones": ["EI"],
+                "foto": "img/jugadores/brentford/anthony.png"
+            },
+            {
                 "nombre": "Ouattara",
                 "posiciones": ["ED"],
                 "foto": "img/jugadores/brentford/ouattara.png"
             },
-            {
+            /*{
                 "nombre": "Donovan",
                 "posiciones": ["ED"],
                 "foto": "img/jugadores/brentford/donovan.png"
-            },
+            },*/
             {
                 "nombre": "Igor Thiago",
                 "posiciones": ["DC"],
@@ -627,6 +692,11 @@ const equipos = [
                 "nombre": "Furo",
                 "posiciones": ["DC"],
                 "foto": "img/jugadores/brentford/furo.png"
+            },
+            {
+                "nombre": "Wilson",
+                "posiciones": ["DC"],
+                "foto": "img/jugadores/brentford/wilson.png"
             }
         ]
     },
@@ -636,6 +706,18 @@ const equipos = [
         "escudo": "img/brighton.png",
         "entrenador": "Fabian Hürzeler",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                "Community Shield": [1911]
+            },
+            "internacionales": {
+
+            },
+            "menores": {
+                "League One": [2002, 2011],
+                "League Two": [1965, 2001]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Verbruggen",
@@ -657,11 +739,11 @@ const equipos = [
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/brighton/rushworth.png"
             },
-            {
+            /*{
                 "nombre": "Beadle",
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/brighton/beadle.png"
-            },
+            },*/
             {
                 "nombre": "Boscagli",
                 "posiciones": ["DFC"],
@@ -673,14 +755,14 @@ const equipos = [
                 "foto": "img/jugadores/brighton/dunk.png"
             },
             {
-                "nombre": "Coppola",
-                "posiciones": ["DFC"],
-                "foto": "img/jugadores/brighton/coppola.png"
-            },
-            {
                 "nombre": "Struijk",
                 "posiciones": ["DFC"],
                 "foto": "img/jugadores/brighton/struijk.png"
+            },
+            {
+                "nombre": "Vuskovic",
+                "posiciones": ["DFC"],
+                "foto": "img/jugadores/brighton/vuskovic.png"
             },
             {
                 "nombre": "Igor Julio",
@@ -787,21 +869,21 @@ const equipos = [
                 "posiciones": ["ED"],
                 "foto": "img/jugadores/brighton/yohanna.png"
             },
-            {
+            /*{
                 "nombre": "Yoon",
                 "posiciones": ["ED"],
                 "foto": "img/jugadores/brighton/yoon.png"
-            },
+            },*/
             {
                 "nombre": "Cozier-Duberry",
                 "posiciones": ["ED"],
                 "foto": "img/jugadores/brighton/cozier-duberry.png"
             },
-            {
+            /*{
                 "nombre": "Rego",
                 "posiciones": ["ED", "EI"],
                 "foto": "img/jugadores/brighton/rego.png"
-            },
+            },*/
             {
                 "nombre": "Rutter",
                 "posiciones": ["MCO", "DC"],
@@ -835,6 +917,25 @@ const equipos = [
         "escudo": "img/chelsea.png",
         "entrenador": "Xabi Alonso",
         "formacion": "3-4-2-1",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1955, 2005, 2006, 2010, 2015, 2017],
+                "FA Cup": [1970, 1997, 2000, 2007, 2009, 2010, 2012, 2018],
+                "League Cup": [1965, 1998, 2005, 2007, 2015],
+                "Community Shield": [1956, 2001, 2006, 2010]
+            },
+            "internacionales": {
+                "Champions League": [2012, 2021],
+                "Europa League": [2013, 2019],
+                "Conference League": [2025],
+                "Mundial Clubes": [2022, 2025],
+                "Supercopa Europa": [1999, 2022],
+                "Recopa Europa": [1971, 1998]
+            },
+            "menores": {
+                "Championship": [1984, 1989]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Sánchez",
@@ -957,11 +1058,6 @@ const equipos = [
                 "foto": "img/jugadores/chelsea/enzo.png"
             },
             {
-                "nombre": "Andrey Santos",
-                "posiciones": ["MC"],
-                "foto": "img/jugadores/chelsea/andrey-santos.png"
-            },
-            {
                 "nombre": "Palmer",
                 "posiciones": ["MCO"],
                 "foto": "img/jugadores/chelsea/palmer.png"
@@ -987,14 +1083,14 @@ const equipos = [
                 "foto": "img/jugadores/chelsea/pedro-neto.png"
             },
             {
-                "nombre": "George",
-                "posiciones": ["MCO", "DC"],
-                "foto": "img/jugadores/chelsea/george.png"
-            },
-            {
                 "nombre": "Quenda",
                 "posiciones": ["MCO"],
                 "foto": "img/jugadores/chelsea/quenda.png"
+            },
+            {
+                "nombre": "Rogers",
+                "posiciones": ["MCO"],
+                "foto": "img/jugadores/chelsea/rogers.png"
             },
             {
                 "nombre": "Joao Pedro",
@@ -1034,6 +1130,18 @@ const equipos = [
         "escudo": "img/coventry.png",
         "entrenador": "Frank Lampard",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                "FA Cup": [1987]
+            },
+            "internacionales": {
+
+            },
+            "menores": {
+                "Championship": [1967, 2026],
+                "League One": [1964, 2020]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Dovin",
@@ -1064,6 +1172,11 @@ const equipos = [
                 "nombre": "Woolfenden",
                 "posiciones": ["DFC"],
                 "foto": "img/jugadores/coventry/woolfenden.png"
+            },
+            {
+                "nombre": "Amenda",
+                "posiciones": ["DFC"],
+                "foto": "img/jugadores/coventry/amenda.png"
             },
             {
                 "nombre": "Dasilva",
@@ -1141,6 +1254,11 @@ const equipos = [
                 "foto": "img/jugadores/coventry/rodrigues.png"
             },
             {
+                "nombre": "Tchaouna",
+                "posiciones": ["ED"],
+                "foto": "img/jugadores/coventry/tchaouna.png"
+            },
+            {
                 "nombre": "Wright",
                 "posiciones": ["DC"],
                 "foto": "img/jugadores/coventry/wright.png"
@@ -1168,6 +1286,19 @@ const equipos = [
         "escudo": "img/crystal-palace.png",
         "entrenador": "Pierre Sage",
         "formacion": "3-4-2-1",
+        "titulos": {
+            "nacionales": {
+                "FA Cup": [2025],
+                "Community Shield": [2026]
+            },
+            "internacionales": {
+                "Conference League": [2026]
+            },
+            "menores": {
+                "Championship": [1979, 1994],
+                "League One": [1921]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Henderson",
@@ -1238,6 +1369,11 @@ const equipos = [
                 "nombre": "Kporha",
                 "posiciones": ["LD"],
                 "foto": "img/jugadores/crystal-palace/kporha.png"
+            },
+            {
+                "nombre": "Mingueza",
+                "posiciones": ["LD"],
+                "foto": "img/jugadores/crystal-palace/mingueza.png"
             },
             {
                 "nombre": "Wharton",
@@ -1322,6 +1458,19 @@ const equipos = [
         "escudo": "img/everton.png",
         "entrenador": "David Moyes",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1891, 1915, 1928, 1932, 1939, 1963, 1970, 1985, 1987],
+                "FA Cup": [1906, 1933, 1966, 1984, 1995],
+                "Community Shield": [1929, 1933, 1964, 1971, 1985, 1986, 1987, 1988, 1996]
+            },
+            "internacionales": {
+                "Recopa Europa": [1985]
+            },
+            "menores": {
+                "Championship": [1931]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Pickford",
@@ -1432,7 +1581,12 @@ const equipos = [
                 "nombre": "Beto",
                 "posiciones": ["DC"],
                 "foto": "img/jugadores/everton/beto.png"
-            }
+            },
+            {
+                "nombre": "George",
+                "posiciones": ["DC", "EI"],
+                "foto": "img/jugadores/everton/george.png"
+            },
         ]
     },
     {
@@ -1441,6 +1595,18 @@ const equipos = [
         "escudo": "img/fulham.png",
         "entrenador": "Álvaro Arbeloa",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                
+            },
+            "internacionales": {
+
+            },
+            "menores": {
+                "Championship": [1949, 2001, 2022],
+                "League One": [1932, 1999]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Leno",
@@ -1560,6 +1726,17 @@ const equipos = [
         "escudo": "img/hull-city.png",
         "entrenador": "Sergej Jakirovic",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                
+            },
+            "internacionales": {
+
+            },
+            "menores": {
+                "League One": [1933, 1949, 1966, 2021]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Phillips",
@@ -1672,11 +1849,6 @@ const equipos = [
                 "foto": "img/jugadores/hull-city/kamara.png"
             },
             {
-                "nombre": "Joseph",
-                "posiciones": ["DC"],
-                "foto": "img/jugadores/hull-city/joseph.png"
-            },
-            {
                 "nombre": "McBurnie",
                 "posiciones": ["DC"],
                 "foto": "img/jugadores/hull-city/mcburnie.png"
@@ -1699,6 +1871,19 @@ const equipos = [
         "escudo": "img/ipswich.png",
         "entrenador": "Gary O'Neil",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1962],
+                "FA Cup": [1978],
+            },
+            "internacionales": {
+                "Europa League": [1981]
+            },
+            "menores": {
+                "Championship": [1961, 1968, 1992],
+                "League One": [1954, 1957]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Walton",
@@ -1715,11 +1900,11 @@ const equipos = [
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/ipswich/button.png"
             },
-            {
+            /*{
                 "nombre": "Slicker",
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/ipswich/slicker.png"
-            },
+            },*/
             {
                 "nombre": "O'Shea",
                 "posiciones": ["DFC"],
@@ -1734,11 +1919,6 @@ const equipos = [
                 "nombre": "Kipré",
                 "posiciones": ["DFC"],
                 "foto": "img/jugadores/ipswich/kipre.png"
-            },
-            {
-                "nombre": "Baggott",
-                "posiciones": ["DFC"],
-                "foto": "img/jugadores/ipswich/baggott.png"
             },
             {
                 "nombre": "Davis",
@@ -1834,6 +2014,11 @@ const equipos = [
                 "nombre": "Al-Hamadi",
                 "posiciones": ["DC"],
                 "foto": "img/jugadores/ipswich/al-hamadi.png"
+            },
+            {
+                "nombre": "Emersonn",
+                "posiciones": ["DC"],
+                "foto": "img/jugadores/ipswich/emersonn.png"
             }
         ]
     },
@@ -1843,16 +2028,25 @@ const equipos = [
         "escudo": "img/leeds.png",
         "entrenador": "Daniel Farke",
         "formacion": "3-4-2-1",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1969, 1974, 1992],
+                "FA Cup": [1972],
+                "League Cup": [1968],
+                "Community Shield": [1970, 1993]
+            },
+            "internacionales": {
+
+            },
+            "menores": {
+                "Championship": [1924, 1964, 1990, 2020, 2025]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Perri",
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/leeds/perri.png"
-            },
-            {
-                "nombre": "Darlow",
-                "posiciones": ["POR"],
-                "foto": "img/jugadores/leeds/darlow.png"
             },
             {
                 "nombre": "Cairns",
@@ -1880,6 +2074,11 @@ const equipos = [
                 "foto": "img/jugadores/leeds/wober.png"
             },
             {
+                "nombre": "Muharemovic",
+                "posiciones": ["DFC"],
+                "foto": "img/jugadores/leeds/muharemovic.png"
+            },
+            {
                 "nombre": "Gudmundsson",
                 "posiciones": ["LI"],
                 "foto": "img/jugadores/leeds/gudmundsson.png"
@@ -1888,11 +2087,6 @@ const equipos = [
                 "nombre": "Byram",
                 "posiciones": ["LI"],
                 "foto": "img/jugadores/leeds/byram.png"
-            },
-            {
-                "nombre": "Schmidt",
-                "posiciones": ["LI", "LD"],
-                "foto": "img/jugadores/leeds/schmidt.png"
             },
             {
                 "nombre": "Bogle",
@@ -1970,6 +2164,11 @@ const equipos = [
                 "foto": "img/jugadores/leeds/gelhardt.png"
             },
             {
+                "nombre": "Wilson",
+                "posiciones": ["MCO"],
+                "foto": "img/jugadores/leeds/wilson.png"
+            },
+            {
                 "nombre": "Calvert-Lewin",
                 "posiciones": ["DC"],
                 "foto": "img/jugadores/leeds/calvert-lewin.png"
@@ -1997,6 +2196,23 @@ const equipos = [
         "escudo": "img/liverpool.png",
         "entrenador": "Andoni Iraola",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1901, 1906, 1922, 1923, 1947, 1964, 1966, 1973, 1976, 1977, 1979, 1980, 1982, 1983, 1984, 1986, 1988, 1990, 2020, 2025],
+                "FA Cup": [1965, 1974, 1986, 1989, 1992, 2001, 2006, 2022],
+                "League Cup": [1981, 1982, 1983, 1984, 1995, 2001, 2003, 2012, 2022, 2024],
+                "Community Shield": [1965, 1966, 1967, 1975, 1977, 1978, 1980, 1981, 1983, 1987, 1989, 1990, 1991, 2002, 2007, 2023]
+            },
+            "internacionales": {
+                "Champions League": [1977, 1978, 1981, 1984, 2005, 2019],
+                "Europa League": [1973, 1976, 2001],
+                "Mundial Clubes": [2020],
+                "Supercopa Europa": [1978, 2002, 2006, 2020]
+            },
+            "menores": {
+                "Championship": [1894, 1896, 1905, 1962]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Mamardashvili",
@@ -2151,6 +2367,23 @@ const equipos = [
         "escudo": "img/manchester-city.png",
         "entrenador": "Enzo Maresca",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1937, 1968, 2012, 2014, 2018, 2019, 2021, 2022, 2023, 2024],
+                "FA Cup": [1904, 1934, 1956, 1969, 2011, 2019, 2023, 2026],
+                "League Cup": [1970, 1976, 2014, 2016, 2018, 2019, 2020, 2021, 2026],
+                "Community Shield": [1938, 1969, 1973, 2013, 2019, 2020, 2025]
+            },
+            "internacionales": {
+                "Champions League": [2023],
+                "Mundial Clubes": [2024],
+                "Supercopa Europa": [2024],
+                "Recopa Europa": [1970]
+            },
+            "menores": {
+                "Championship": [1899, 1903, 1910, 1928, 1947, 1966, 2002]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Donnarumma",
@@ -2167,6 +2400,11 @@ const equipos = [
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/manchester-city/bettinelli.png"
             },
+            /*{
+                "nombre": "Charles",
+                "posiciones": ["POR"],
+                "foto": "img/jugadores/manchester-city/charles.png"
+            },*/
             {
                 "nombre": "Guéhi",
                 "posiciones": ["DFC"],
@@ -2257,11 +2495,11 @@ const equipos = [
                 "posiciones": ["MC"],
                 "foto": "img/jugadores/manchester-city/kovacic.png"
             },
-            {
+            /*{
                 "nombre": "Nypan",
                 "posiciones": ["MC"],
                 "foto": "img/jugadores/manchester-city/nypan.png"
-            },
+            },*/
             {
                 "nombre": "Anderson",
                 "posiciones": ["MC"],
@@ -2298,6 +2536,11 @@ const equipos = [
                 "foto": "img/jugadores/manchester-city/detourbet.png"
             },*/
             {
+                "nombre": "Monga",
+                "posiciones": ["EI"],
+                "foto": "img/jugadores/manchester-city/monga.png"
+            },
+            {
                 "nombre": "Savinho",
                 "posiciones": ["ED", "EI"],
                 "foto": "img/jugadores/manchester-city/savinho.png"
@@ -2325,6 +2568,25 @@ const equipos = [
         "escudo": "img/manchester-united.png",
         "entrenador": "Michael Carrick",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1908, 1911, 1952, 1956, 1957, 1965, 1967, 1993, 1994, 1996, 1997, 1999, 2000, 2001, 2003, 2007, 2008, 2009, 2011, 2013],
+                "FA Cup": [1909, 1948, 1963, 1977, 1983, 1985, 1990, 1994, 1996, 1999, 2004, 2016, 2024],
+                "League Cup": [1992, 2006, 2009, 2010, 2017, 2023],
+                "Community Shield": [1909, 1912, 1953, 1957, 1958, 1966, 1968, 1978, 1984, 1991, 1994, 1995, 1997, 1998, 2004, 2008, 2009, 2011, 2012, 2014, 2017]
+            },
+            "internacionales": {
+                "Champions League": [1968, 1999, 2008],
+                "Europa League": [2017],
+                "Mundial Clubes": [2009],
+                "Intercontinental": [1999],
+                "Supercopa Europa": [1992],
+                "Recopa Europa": [1991]
+            },
+            "menores": {
+                "Championship": [1936, 1975]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Lammens",
@@ -2345,6 +2607,11 @@ const equipos = [
                 "nombre": "Onana",
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/manchester-united/onana.png"
+            },
+            {
+                "nombre": "Darlow",
+                "posiciones": ["POR"],
+                "foto": "img/jugadores/manchester-united/darlow.png"
             },
             {
                 "nombre": "Yoro",
@@ -2413,8 +2680,18 @@ const equipos = [
             },
             {
                 "nombre": "Mainoo",
-                "posiciones": ["MC"],
+                "posiciones": ["MC", "MCD"],
                 "foto": "img/jugadores/manchester-united/mainoo.png"
+            },
+            {
+                "nombre": "Andrey Santos",
+                "posiciones": ["MC", "MCD"],
+                "foto": "img/jugadores/manchester-united/andrey-santos.png"
+            },
+            {
+                "nombre": "Tielemans",
+                "posiciones": ["MC"],
+                "foto": "img/jugadores/manchester-united/tielemans.png"
             },
             {
                 "nombre": "Bruno",
@@ -2474,6 +2751,20 @@ const equipos = [
         "escudo": "img/newcastle.png",
         "entrenador": "Eddie Howe",
         "formacion": "4-3-3",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1905, 1907, 1909, 1927],
+                "FA Cup": [1910, 1924, 1932, 1951, 1952, 1955],
+                "League Cup": [2025],
+                "Community Shield": [1907, 1910]
+            },
+            "internacionales": {
+
+            },
+            "menores": {
+                "Championship": [1965, 1993, 2010, 2017]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Pope",
@@ -2525,16 +2816,11 @@ const equipos = [
                 "posiciones": ["LD", "LI"],
                 "foto": "img/jugadores/newcastle/livramento.png"
             },
-            {
+            /*{
                 "nombre": "Ashby",
                 "posiciones": ["LD"],
                 "foto": "img/jugadores/newcastle/ashby.png"
-            },
-            {
-                "nombre": "Tonali",
-                "posiciones": ["MCD", "MC"],
-                "foto": "img/jugadores/newcastle/tonali.png"
-            },
+            },*/
             {
                 "nombre": "Guimarães",
                 "posiciones": ["MC", "MCD"],
@@ -2551,6 +2837,11 @@ const equipos = [
                 "foto": "img/jugadores/newcastle/miley.png"
             },
             {
+                "nombre": "Steur",
+                "posiciones": ["MC"],
+                "foto": "img/jugadores/newcastle/steur.png"
+            },
+            {
                 "nombre": "Ramsey",
                 "posiciones": ["MCO", "EI"],
                 "foto": "img/jugadores/newcastle/ramsey.png"
@@ -2561,11 +2852,6 @@ const equipos = [
                 "foto": "img/jugadores/newcastle/willock.png"
             },
             {
-                "nombre": "White",
-                "posiciones": ["MCO"],
-                "foto": "img/jugadores/newcastle/white.png"
-            },
-            {
                 "nombre": "Barnes",
                 "posiciones": ["EI"],
                 "foto": "img/jugadores/newcastle/barnes.png"
@@ -2574,6 +2860,11 @@ const equipos = [
                 "nombre": "Cordero",
                 "posiciones": ["EI", "ED"],
                 "foto": "img/jugadores/newcastle/cordero.png"
+            },
+            {
+                "nombre": "Touré",
+                "posiciones": ["EI", "ED"],
+                "foto": "img/jugadores/newcastle/toure.png"
             },
             {
                 "nombre": "Elanga",
@@ -2608,6 +2899,22 @@ const equipos = [
         "escudo": "img/nottingham-forest.png",
         "entrenador": "Oliver Glasner",
         "formacion": "3-4-2-1",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1978],
+                "FA Cup": [1898, 1959],
+                "League Cup": [1978, 1979, 1989, 1990],
+                "Community Shield": [1979]
+            },
+            "internacionales": {
+                "Champions League": [1979, 1980],
+                "Supercopa Europa": [1980]
+            },
+            "menores": {
+                "Championship": [1907, 1922, 1998],
+                "League One": [1951]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "John Victor",
@@ -2724,11 +3031,11 @@ const equipos = [
                 "posiciones": ["MCO"],
                 "foto": "img/jugadores/nottingham-forest/bakwa.png"
             },
-            {
+            /*{
                 "nombre": "Jota Silva",
                 "posiciones": ["MCO"],
                 "foto": "img/jugadores/nottingham-forest/jota-silva.png"
-            },
+            },*/
             {
                 "nombre": "Igor Jesus",
                 "posiciones": ["DC", "MCO"],
@@ -2757,6 +3064,20 @@ const equipos = [
         "escudo": "img/sunderland.png",
         "entrenador": "Régis Le Bris",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1892, 1893, 1895, 1902, 1913, 1936],
+                "FA Cup": [1937, 1973],
+                "Community Shield": [1937]
+            },
+            "internacionales": {
+
+            },
+            "menores": {
+                "Championship": [1976, 1996, 1999, 2005, 2007],
+                "League One": [1988]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Roefs",
@@ -2829,9 +3150,9 @@ const equipos = [
                 "foto": "img/jugadores/sunderland/mukiele.png"
             },
             {
-                "nombre": "Pembélé",
+                "nombre": "Meunier",
                 "posiciones": ["LD"],
-                "foto": "img/jugadores/sunderland/pembele.png"
+                "foto": "img/jugadores/sunderland/meunier.png"
             },
             {
                 "nombre": "Xhaka",
@@ -2904,11 +3225,6 @@ const equipos = [
                 "foto": "img/jugadores/sunderland/isidor.png"
             },
             {
-                "nombre": "Mayenda",
-                "posiciones": ["DC", "ED"],
-                "foto": "img/jugadores/sunderland/mayenda.png"
-            },
-            {
                 "nombre": "Abdullahi",
                 "posiciones": ["DC"],
                 "foto": "img/jugadores/sunderland/abdullahi.png"
@@ -2926,6 +3242,21 @@ const equipos = [
         "escudo": "img/tottenham.png",
         "entrenador": "Roberto De Zerbi",
         "formacion": "4-2-3-1",
+        "titulos": {
+            "nacionales": {
+                "Premier League": [1951, 1961],
+                "FA Cup": [1901, 1921, 1961, 1962, 1967, 1981, 1982, 1991],
+                "League Cup": [1971, 1973, 1999, 2008],
+                "Community Shield": [1922, 1952, 1962, 1963, 1968, 1982, 1992]
+            },
+            "internacionales": {
+                "Europa League": [1972, 1984, 2025],
+                "Recopa Europa": [1963]
+            },
+            "menores": {
+                "Championship": [1920, 1950]
+            }
+        },
         "plantilla": [
             {
                 "nombre": "Vicario",
@@ -2962,7 +3293,7 @@ const equipos = [
                 "posiciones": ["DFC"],
                 "foto": "img/jugadores/tottenham/danso.png"
             },
-            {
+            /*{
                 "nombre": "Dragusin",
                 "posiciones": ["DFC"],
                 "foto": "img/jugadores/tottenham/dragusin.png"
@@ -2971,12 +3302,7 @@ const equipos = [
                 "nombre": "Davies",
                 "posiciones": ["DFC"],
                 "foto": "img/jugadores/tottenham/davies.png"
-            },
-            {
-                "nombre": "Vuskovic",
-                "posiciones": ["DFC"],
-                "foto": "img/jugadores/tottenham/vuskovic.png"
-            },
+            },*/
             {
                 "nombre": "Van Hecke",
                 "posiciones": ["DFC"],
@@ -3033,6 +3359,11 @@ const equipos = [
                 "foto": "img/jugadores/tottenham/gray.png"
             },
             {
+                "nombre": "Tonali",
+                "posiciones": ["MCD", "MC"],
+                "foto": "img/jugadores/tottenham/tonali.png"
+            },
+            {
                 "nombre": "Bergvall",
                 "posiciones": ["MC"],
                 "foto": "img/jugadores/tottenham/bergvall.png"
@@ -3046,11 +3377,6 @@ const equipos = [
                 "nombre": "Matar Sarr",
                 "posiciones": ["MC"],
                 "foto": "img/jugadores/tottenham/matar-sarr.png"
-            },
-            {
-                "nombre": "Devine",
-                "posiciones": ["MC"],
-                "foto": "img/jugadores/tottenham/devine.png"
             },
             {
                 "nombre": "Mateus",

@@ -33,7 +33,11 @@ posiciones.forEach(posicion => {
     });
 
     function actualizarPosicion() {
-        const jugador = equipo.plantilla.find(j => j.nombre === selector.value);
+        let jugador = equipo.plantilla.find(j => j.nombre === selector.value);
+        if (!jugador) {
+            jugador = jugadoresPosicion[0];
+            selector.value = jugador.nombre;
+        }
         foto.src = jugador.foto;
         foto.alt = jugador.nombre;
         nombre.textContent = jugador.nombre;
@@ -133,3 +137,33 @@ document.getElementById("formacion").textContent = equipo.formacion;
 document.getElementById("plantilla").textContent = equipo.plantilla.length;
 
 document.title = equipo.nombre;
+
+const nacionales = document.getElementById("titulosNacionales");
+const internacionales = document.getElementById("titulosInternacionales");
+const menores = document.getElementById("titulosMenores");
+
+function mostrarTitulos(contenedor, titulos) {
+
+    if (Object.keys(titulos).length === 0) {
+        contenedor.style.display = "none";
+        return;
+    }
+
+    for (const competicion in titulos) {
+
+        const p = document.createElement("p");
+
+        p.innerHTML =
+            "<strong>" + competicion + ":</strong> " +
+            "<span><strong>" + titulos[competicion].length
+            + "</strong> (" 
+            + titulos[competicion].join(", ")
+            + ")</span>";
+
+        contenedor.appendChild(p);
+    }
+}
+
+mostrarTitulos(nacionales, equipo.titulos.nacionales);
+mostrarTitulos(internacionales, equipo.titulos.internacionales);
+mostrarTitulos(menores, equipo.titulos.menores);
