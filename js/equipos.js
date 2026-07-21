@@ -276,6 +276,11 @@ const equipos = [
                 "foto": "img/jugadores/aston-villa/barkley.png"
             },
             {
+                "nombre": "João Gomes",
+                "posiciones": ["MC", "MCD"],
+                "foto": "img/jugadores/aston-villa/joao-gomes.png"
+            },
+            {
                 "nombre": "Manzambi",
                 "posiciones": ["MC", "MCO"],
                 "foto": "img/jugadores/aston-villa/manzambi.png"
@@ -1401,6 +1406,11 @@ const equipos = [
                 "foto": "img/jugadores/crystal-palace/hughes.png"
             },
             {
+                "nombre": "Kamada",
+                "posiciones": ["MC", "MCO"],
+                "foto": "img/jugadores/crystal-palace/kamada.png"
+            },
+            {
                 "nombre": "Devenny",
                 "posiciones": ["MCO"],
                 "foto": "img/jugadores/crystal-palace/devenny.png"
@@ -1804,6 +1814,11 @@ const equipos = [
                 "foto": "img/jugadores/hull-city/slater.png"
             },
             {
+                "nombre": "Zambrano",
+                "posiciones": ["MCD"],
+                "foto": "img/jugadores/hull-city/zambrano.png"
+            },
+            {
                 "nombre": "Gyabi",
                 "posiciones": ["MCO", "MC"],
                 "foto": "img/jugadores/hull-city/gyabi.png"
@@ -1906,6 +1921,11 @@ const equipos = [
                 "foto": "img/jugadores/ipswich/slicker.png"
             },*/
             {
+                "nombre": "Van Oevelen",
+                "posiciones": ["POR"],
+                "foto": "img/jugadores/ipswich/van-oevelen.png"
+            },
+            {
                 "nombre": "O'Shea",
                 "posiciones": ["DFC"],
                 "foto": "img/jugadores/ipswich/o-shea.png"
@@ -1974,6 +1994,11 @@ const equipos = [
                 "nombre": "Ogbene",
                 "posiciones": ["ED"],
                 "foto": "img/jugadores/ipswich/ogbene.png"
+            },
+            {
+                "nombre": "Fatawu",
+                "posiciones": ["ED"],
+                "foto": "img/jugadores/ipswich/fatawu.png"
             },
             {
                 "nombre": "Mehmeti",
@@ -2863,7 +2888,7 @@ const equipos = [
             },
             {
                 "nombre": "Touré",
-                "posiciones": ["EI", "ED"],
+                "posiciones": ["EI"],
                 "foto": "img/jugadores/newcastle/toure.png"
             },
             {
