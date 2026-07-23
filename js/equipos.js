@@ -126,6 +126,11 @@ const equipos = [
                 "foto": "img/jugadores/arsenal/reiss-nelson.png"
             },
             {
+                "nombre": "Tzolis",
+                "posiciones": ["EI"],
+                "foto": "img/jugadores/arsenal/tzolis.png"
+            },
+            {
                 "nombre": "Saka",
                 "posiciones": ["ED"],
                 "foto": "img/jugadores/arsenal/saka.png"
@@ -294,6 +299,11 @@ const equipos = [
                 "nombre": "Iling-Junior",
                 "posiciones": ["EI"],
                 "foto": "img/jugadores/aston-villa/iling-junior.png"
+            },
+            {
+                "nombre": "Garnacho",
+                "posiciones": ["EI", "ED"],
+                "foto": "img/jugadores/aston-villa/garnacho.png"
             },
             {
                 "nombre": "Bailey",
@@ -1073,11 +1083,6 @@ const equipos = [
                 "foto": "img/jugadores/chelsea/gittens.png"
             },
             {
-                "nombre": "Garnacho",
-                "posiciones": ["MCO"],
-                "foto": "img/jugadores/chelsea/garnacho.png"
-            },
-            {
                 "nombre": "Estevao",
                 "posiciones": ["MCO"],
                 "foto": "img/jugadores/chelsea/estevao.png"
@@ -1096,6 +1101,11 @@ const equipos = [
                 "nombre": "Rogers",
                 "posiciones": ["MCO"],
                 "foto": "img/jugadores/chelsea/rogers.png"
+            },
+            {
+                "nombre": "Bettoni",
+                "posiciones": ["MCO"],
+                "foto": "img/jugadores/chelsea/bettoni.png"
             },
             {
                 "nombre": "Joao Pedro",
@@ -1277,12 +1287,12 @@ const equipos = [
                 "nombre": "Simms",
                 "posiciones": ["DC"],
                 "foto": "img/jugadores/coventry/simms.png"
-            },
-            {
+            }
+            /*{
                 "nombre": "Bassette",
                 "posiciones": ["DC"],
                 "foto": "img/jugadores/coventry/bassette.png"
-            }
+            }*/
         ]
     },
     {
@@ -1644,11 +1654,6 @@ const equipos = [
                 "foto": "img/jugadores/fulham/cuenca.png"
             },
             {
-                "nombre": "Diop",
-                "posiciones": ["DFC"],
-                "foto": "img/jugadores/fulham/diop.png"
-            },
-            {
                 "nombre": "Sessegnon",
                 "posiciones": ["LI"],
                 "foto": "img/jugadores/fulham/sessegnon.png"
@@ -1799,6 +1804,11 @@ const equipos = [
                 "foto": "img/jugadores/hull-city/jacob.png"
             },
             {
+                "nombre": "Targett",
+                "posiciones": ["LI"],
+                "foto": "img/jugadores/hull-city/targett.png"
+            },
+            {
                 "nombre": "Drameh",
                 "posiciones": ["LD"],
                 "foto": "img/jugadores/hull-city/drameh.png"
@@ -1939,6 +1949,11 @@ const equipos = [
                 "nombre": "Kipré",
                 "posiciones": ["DFC"],
                 "foto": "img/jugadores/ipswich/kipre.png"
+            },
+            {
+                "nombre": "Diop",
+                "posiciones": ["DFC"],
+                "foto": "img/jugadores/ipswich/diop.png"
             },
             {
                 "nombre": "Davis",
@@ -2092,11 +2107,6 @@ const equipos = [
                 "nombre": "Bornauw",
                 "posiciones": ["DFC"],
                 "foto": "img/jugadores/leeds/bornauw.png"
-            },
-            {
-                "nombre": "Wöber",
-                "posiciones": ["DFC", "LI"],
-                "foto": "img/jugadores/leeds/wober.png"
             },
             {
                 "nombre": "Muharemovic",
@@ -2628,11 +2638,11 @@ const equipos = [
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/manchester-united/heaton.png"
             },
-            {
+            /*{
                 "nombre": "Onana",
                 "posiciones": ["POR"],
                 "foto": "img/jugadores/manchester-united/onana.png"
-            },
+            },*/
             {
                 "nombre": "Darlow",
                 "posiciones": ["POR"],
@@ -3025,6 +3035,11 @@ const equipos = [
                 "nombre": "Yates",
                 "posiciones": ["MC"],
                 "foto": "img/jugadores/nottingham-forest/yates.png"
+            },
+            {
+                "nombre": "Schlager",
+                "posiciones": ["MC"],
+                "foto": "img/jugadores/nottingham-forest/schlager.png"
             },
             {
                 "nombre": "Gibbs-White",
