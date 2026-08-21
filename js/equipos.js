@@ -1275,7 +1275,7 @@ const equipos = [
             },
             {
                 "nombre": "Yirenkyi",
-                "posiciones": ["MCD", "DFC"],
+                "posiciones": ["MCD", "MC"],
                 "foto": "img/jugadores/coventry/yirenkyi.png"
             },
             {
@@ -2480,11 +2480,6 @@ const equipos = [
                 "foto": "img/jugadores/liverpool/mac-allister.png"
             },
             {
-                "nombre": "Jones",
-                "posiciones": ["MC", "MCO"],
-                "foto": "img/jugadores/liverpool/jones.png"
-            },
-            {
                 "nombre": "Nyoni",
                 "posiciones": ["MC"],
                 "foto": "img/jugadores/liverpool/nyoni.png"
@@ -3145,11 +3140,6 @@ const equipos = [
                 "nombre": "Netz",
                 "posiciones": ["LI"],
                 "foto": "img/jugadores/nottingham-forest/netz.png"
-            },
-            {
-                "nombre": "Richards",
-                "posiciones": ["LI"],
-                "foto": "img/jugadores/nottingham-forest/richards.png"
             },
             {
                 "nombre": "Ola Aina",
