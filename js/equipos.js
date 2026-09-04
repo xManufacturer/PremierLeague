@@ -2461,7 +2461,7 @@ const equipos = [
             },
             {
                 "nombre": "Araujo",
-                "posiciones": ["DFC"],
+                "posiciones": ["DFC", "LD"],
                 "foto": "img/jugadores/liverpool/araujo.png"
             },
             {
