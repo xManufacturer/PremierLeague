@@ -2516,7 +2516,7 @@ const equipos = [
             },
             {
                 "nombre": "Szoboszlai",
-                "posiciones": ["MCO", "MC"],
+                "posiciones": ["MCO", "MC", "LD"],
                 "foto": "img/jugadores/liverpool/szoboszlai.png"
             },
             /*{
@@ -2526,7 +2526,7 @@ const equipos = [
             },*/
             {
                 "nombre": "Gakpo",
-                "posiciones": ["EI", "DC"],
+                "posiciones": ["EI", "DC", "ED"],
                 "foto": "img/jugadores/liverpool/gakpo.png"
             },
             {
